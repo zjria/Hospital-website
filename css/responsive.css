@@ -1,0 +1,134 @@
+@media (max-width: 576px) {
+    .banner-text h1 {
+        font-size: 28px;
+    }
+
+    .aboute-us-details {
+        margin-top: 0px;
+    }
+
+    .expert-photo .expert-2 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .expert-photo .expert-3 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .expert-photo .expert-4 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .row.why {
+        flex-direction: column-reverse;
+    }
+
+    .why-title {
+        text-align: center;
+        writing-mode: horizontal-tb;
+        margin-bottom: 40px;
+    }
+
+    .why-title h1 {
+        font-size: 6.5em;
+    }
+
+    .doctor {
+        display: none;
+    }
+
+    .prices-cost h5 {
+        font-size: 12px;
+    }
+
+    .blog-title h3 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .expert-photo .expert-2 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .expert-photo .expert-3 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .expert-photo .expert-4 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .row.why {
+        flex-direction: column-reverse;
+    }
+
+    .why-title {
+        text-align: center;
+        writing-mode: horizontal-tb;
+        margin-bottom: 40px;
+    }
+
+    .why-title h1 {
+        font-size: 6.5em;
+    }
+
+    .doctor {
+        display: none;
+    }
+
+    .prices-cost h5 {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .banner-text h1 {
+        font-size: 3em;
+    }
+
+    .expert-photo .expert-2 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .expert-photo .expert-3 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .expert-photo .expert-4 {
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .prices-cost h5 {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1400px) {}

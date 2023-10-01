@@ -1,0 +1,398 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #ecedee;
+}
+
+/* Custom CSS Class */
+article {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.sub-title {
+    font-size: 24px;
+}
+
+.paragraph {
+    color: #807f7f;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.second-color {
+    color: #46d4f7;
+}
+
+.btn {
+    position: relative;
+    color: #000;
+    border: 2px solid #222;
+    background: none;
+    text-transform: uppercase;
+}
+
+.btn, .btn:hover, .btn:focus, .btn:active {
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 20px 50px;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-small, .btn-small:hover, .btn-small:focus, .btn-small:active {
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 8px 32px;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-small:hover {
+    color: #222;
+    border-top: 1px solid #222;
+}
+
+/* Header Section Start */
+.header {
+    background-color: #46d4f7;
+    color: white;
+}
+
+
+/* Nav Section Start */
+a.nav-link {
+    color: var(--bs-nav-link-hover-color);
+}
+
+section ul li {
+    padding-left: 20px;
+}
+
+section nav {
+    margin: 23px 0px;
+}
+
+section.navbar-section .logo {
+    width: 200px;
+}
+
+/* Banner Section Start */
+.banner-img-text {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    align-items: center;
+}
+
+.banner-text h1 {
+    font-size: 5em;
+}
+
+/* ABOUT US SECTION Start */
+.aboute-us-details {
+    margin-top: -40px;
+}
+
+/* table part */
+
+#schedule {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#schedule td, #schedule th {
+    padding: 2px;
+}
+
+#schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+#schedule tr td.time {
+    color: #46d4f6;
+    float: right;
+}
+
+.day-time {
+    padding-top: 14px;
+}
+
+
+/* OUR EXPERTS Section */
+.expert-paragraph {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.expert-photo .expert-2 {
+    position: relative;
+    top: 50px;
+    left: 0;
+}
+
+.expert-photo .expert-3 {
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+
+.expert-photo .expert-4 {
+    position: relative;
+    top: -100px;
+    left: 0;
+}
+
+/* WHY section start */
+.why-information h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.why-information h6 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #969696;
+    font-style: italic;
+}
+
+.why-information p.paragraph {
+    font-style: normal;
+    font-size: 15px;
+}
+
+.why-title {
+    text-align: center;
+    writing-mode: vertical-rl;
+}
+
+.why-title h1 {
+    font-size: 12.5em;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.why-title h6 {
+    font-size: 2.5em;
+}
+
+.client-love-us {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* OUR DEPARTMENTS */
+.out-department p.paragraph {
+    font-style: normal;
+    margin: 50px 0px;
+}
+
+.nav-tab-button {
+    display: flex;
+    border: 1px solid rgba(0, 128, 0, 0);
+    padding: 10px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.nav-tab-button:hover {
+    border-bottom: 1px solid #d6d8d6;
+}
+
+.active .nav-tab-button {
+    border: 1px solid black;
+}
+
+.department-icons {
+    margin-right: 20px;
+}
+
+.department-icons {
+    width: 10%;
+}
+
+.department-icons img {
+    filter: invert(77%) sepia(67%) saturate(1714%) hue-rotate(158deg) brightness(100%) contrast(94%);
+}
+
+.active .nav-tab-button .department-icons img {
+    filter: invert(0%) sepia(6%) saturate(25%) hue-rotate(224deg) brightness(107%) contrast(107%);
+}
+
+.designation-skills {
+    color: black;
+}
+
+.designation-skills h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #ecedee;
+}
+
+.designation-skills h6 {
+    margin: 0px;
+}
+
+.department-person-details h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.prices-cost h6 {
+    color: #807f7f;
+}
+
+.doctor-skill-bar .progress .progress-bar {
+    background: #5bc0de;
+}
+
+.progress, .progress-stacked {
+    --bs-progress-height: 24px;
+    --bs-progress-bar-transition: width 0.6s ease;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.prices-cost h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.doctor-skill-bar {
+    margin: 35px 0px;
+}
+
+.doctor {
+    float: right;
+}
+
+/*  FROM OUR BLOG SECTION START */
+
+.post-field p {
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+    margin: 35px 0px;
+}
+
+.post-field p {
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+    margin: 35px 0px;
+}
+
+.post-field {
+    margin-bottom: 40px;
+}
+
+.blog-day-month {
+    position: relative;
+}
+
+.title-day-month {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -28px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+    left: 0;
+}
+
+.blog-title h3 {
+    color: #222;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.day-month {
+    padding: 8px 16px;
+}
+
+.day-month {
+    top: -40px;
+    position: relative;
+}
+
+.day-month .day {
+    font-weight: 700;
+    background: #ecedee;
+    font-size: 20px;
+    padding: 2px 20px;
+    margin-bottom: 2px;
+}
+
+.day-month .month {
+    font-weight: 700;
+    background: #46d4f7;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px 20px;
+}
+
+.comment-like {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.comment-like .icons-part {
+    display: flex;
+    width: 100px;
+    align-items: center;
+}
+
+.comment-like .icons-part .comment img {
+    width: 45%;
+}
+
+.comment-like .icons-part .like img {
+    width: 35%;
+}
+
+.comment-like button {
+    border: none;
+    font-weight: 700;
+}
