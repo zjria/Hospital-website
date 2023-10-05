@@ -18,7 +18,7 @@ body {
 }
 
 /* Custom CSS Class */
-article {
+section {
     margin-top: 100px;
 }
 
@@ -395,4 +395,123 @@ section.navbar-section .logo {
 .comment-like button {
     border: none;
     font-weight: 700;
+}
+
+/* GET FREE CONSULTATION */
+.consultation {
+    background: url(../img/consultation/consultation.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.consultation .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(51, 51, 51, 0.5);
+}
+
+section.consultation .information {
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.consultation .information h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 38px;
+    color: white;
+}
+
+.consultation .information h1 span, section.happy-patients h1 span {
+    color: #46d4f7;
+}
+
+.consultation .information .time {
+    gap: 0px 100px;
+    margin-bottom: 50px;
+}
+
+.time .days h6, .hours h6, .minutes h6, .seconds h6 {
+    font-size: 60px;
+    color: white;
+}
+
+.time .days p, .hours p, .minutes p, .seconds p {
+    font-size: 20px;
+    color: white;
+}
+
+.consultation .information button {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px;
+    margin-bottom: 38px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.consultation .information button:hover {
+    color: black;
+
+}
+
+/* OUR HAPPY PATIENTS Section start */
+.happy-patients ul.slick-dots {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.happy-patients ul.slick-dots li {
+    list-style: none;
+    padding: 0;
+    margin: 0 4px;
+    width: 10px;
+    height: 10px;
+    background: #b1b2b2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.happy-patients ul.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border: 0;
+    border-radius: 50%;
+    background: #2c2d2d;
+    opacity: 0;
+    padding: 0;
+}
+
+.happy-patients ul.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+/* STATISTICS Section Start */
+.number-counter h4 {
+    font-size: 50px;
 }

@@ -50,6 +50,10 @@
     .blog-title h3 {
         font-size: 30px;
     }
+
+    .happy-patients ul.slick-dots {
+        text-align: center;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -96,6 +100,10 @@
     .prices-cost h5 {
         font-size: 12px;
     }
+
+    .happy-patients ul.slick-dots {
+        text-align: center;
+    }
 }
 
 
@@ -124,6 +132,14 @@
 
     .prices-cost h5 {
         font-size: 12px;
+    }
+
+    .consultation .information .time {
+        justify-content: center;
+    }
+
+    .happy-patients ul.slick-dots {
+        text-align: center;
     }
 }
 
