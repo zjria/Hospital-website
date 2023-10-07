@@ -18,7 +18,7 @@ body {
 }
 
 /* Custom CSS Class */
-section {
+main section {
     margin-top: 100px;
 }
 
@@ -89,11 +89,19 @@ a {
 /* Custom css end */
 
 /* Header Section Start */
-.header {
+header.header-section .header-left {
+    justify-content: end;
+    display: flex;
+}
+
+.header-section {
     background-color: #46d4f7;
     color: white;
 }
 
+.header-section .header-right {
+    justify-content: center;
+}
 
 /* Nav Section Start */
 a.nav-link {
@@ -447,7 +455,7 @@ section.consultation .information {
     font-size: 2.5em;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 38px;
+    margin-bottom: 60px;
     color: white;
 }
 
@@ -455,19 +463,24 @@ section.consultation .information {
     color: #46d4f7;
 }
 
-.consultation .information .time {
-    gap: 0px 100px;
-    margin-bottom: 50px;
+section.consultation .information .days, section.consultation .information .seconds, section.consultation .information .minutes, section.consultation .information .hours {
+    margin: 0 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
 
-.time .days h6, .hours h6, .minutes h6, .seconds h6 {
-    font-size: 60px;
-    color: white;
+section.consultation .information .days h6, section.consultation .information .seconds h6, section.consultation .information .minutes h6, section.consultation .information .hours h6 {
+    font-size: 40px;
+    font-weight: 700;
 }
 
-.time .days p, .hours p, .minutes p, .seconds p {
-    font-size: 20px;
-    color: white;
+section.consultation .information .days p, section.consultation .information .seconds p, section.consultation .information .minutes p, section.consultation .information .hours p {
+    font-size: 30px;
 }
 
 /* OUR HAPPY PATIENTS Section start */
@@ -567,11 +580,6 @@ section.consultation .information {
     color: #46d4f7;
 }
 
-.footer-section .footer-information .links, .footer-section .footer-information .our-services, .footer-section .footer-information .drop-us-a-line {}
-
-.footer-section .footer-information .links h6, .footer-section .footer-information .our-services h6, .footer-section .footer-information .drop-us-a-line h6 {}
-
-
 .drop-us-a-line input, .drop-us-a-line textarea {
     width: 100%;
     margin-bottom: 10px;
@@ -590,7 +598,6 @@ section.consultation .information {
     font-size: 1em;
     color: white;
     padding: 10px 30px;
-    margin-bottom: 38px;
     background: transparent;
     outline: none;
     border: 1px solid white;
