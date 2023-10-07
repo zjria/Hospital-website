@@ -54,6 +54,22 @@
     .happy-patients ul.slick-dots {
         text-align: center;
     }
+
+    .footer-information {
+        text-align: center;
+    }
+
+    .drop-us-a-line {
+        margin-top: 40px;
+    }
+
+    .consultation .information button, .drop-us-a-line button {
+        margin-bottom: 0px;
+    }
+
+    .footer-section .footer-information {
+        padding: 20px 0px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -104,6 +120,18 @@
     .happy-patients ul.slick-dots {
         text-align: center;
     }
+
+    .drop-us-a-line {
+        margin-top: 40px;
+    }
+
+    .consultation .information button, .drop-us-a-line button {
+        margin-bottom: 0px;
+    }
+
+    .footer-section .footer-information {
+        padding: 20px 0px;
+    }
 }
 
 
@@ -140,6 +168,10 @@
 
     .happy-patients ul.slick-dots {
         text-align: center;
+    }
+
+    .footer-section .footer-information h1 {
+        font-size: 1.5em;
     }
 }
 

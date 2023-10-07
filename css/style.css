@@ -73,6 +73,21 @@ section {
     border-top: 1px solid #222;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Custom css end */
+
 /* Header Section Start */
 .header {
     background-color: #46d4f7;
@@ -455,23 +470,6 @@ section.consultation .information {
     color: white;
 }
 
-.consultation .information button {
-    text-transform: uppercase;
-    font-size: 1em;
-    color: white;
-    padding: 10px 30px;
-    margin-bottom: 38px;
-    background: transparent;
-    outline: none;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.consultation .information button:hover {
-    color: black;
-
-}
-
 /* OUR HAPPY PATIENTS Section start */
 .happy-patients ul.slick-dots {
     margin: 20px 0px 0px 0px;
@@ -479,6 +477,7 @@ section.consultation .information {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
 }
 
 .happy-patients ul.slick-dots li {
@@ -514,4 +513,100 @@ section.consultation .information {
 /* STATISTICS Section Start */
 .number-counter h4 {
     font-size: 50px;
+}
+
+/* Images Gallery */
+
+.images-gallery .slide-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 500px; */
+}
+
+.images-gallery .slide-item img {
+    width: 100%;
+}
+
+
+/* Footer Section Start */
+.footer-section {
+    background: url(../img/footer/footer-med.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.footer-section .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(51, 51, 51, 0.608);
+}
+
+.footer-section .footer-information {
+    position: relative;
+    padding: 80px 0px;
+}
+
+.footer-section .footer-information h1 {
+    color: #46d4f7;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+.footer-section .footer-information ul li a {
+    color: #46d4f7;
+}
+
+.footer-section .footer-information .links, .footer-section .footer-information .our-services, .footer-section .footer-information .drop-us-a-line {}
+
+.footer-section .footer-information .links h6, .footer-section .footer-information .our-services h6, .footer-section .footer-information .drop-us-a-line h6 {}
+
+
+.drop-us-a-line input, .drop-us-a-line textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 6px;
+}
+
+.drop-us-a-line input:focus, .drop-us-a-line textarea:focus {
+    border: 1px solid rgb(131, 203, 234);
+}
+
+.consultation .information button, .drop-us-a-line button {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px;
+    margin-bottom: 38px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.consultation .information button:hover, .drop-us-a-line button:hover {
+    color: black;
+
+}
+
+.copy-right {
+    background-color: #122121;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    color: white;
 }
